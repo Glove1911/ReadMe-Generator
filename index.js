@@ -69,13 +69,13 @@ inquirer
         # ${projectInfo.title}
 
       # Table of Contents
--[Description](#description)
--[Installation](#installation)
--[Usage](#usage)
--[License](#license)
--[Contribution](#contribution)
--[Tests](#test)
--[Questions](#questions)
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contribution](#contribution)
+- [Tests](#test)
+- [Questions](#questions)
 
 
 
@@ -84,7 +84,10 @@ ${projectInfo.description}
 
 
 ## Installation
+To install dependencies run the following command: 
+\`\`\`
 ${projectInfo.instructions}
+\`\`\`
 
 
 ## Usage
@@ -104,13 +107,14 @@ ${projectInfo.test}
 
 
 ## Questions
-[${projectInfo.github}] (https://github.com/Glove1911) 
-[Github](https://github.com/Glove1911) 
+(https://github.com/${projectInfo.github}) 
 
-Please contact me at -[${projectInfo.email}] with any questions.`
+
+Please contact me at (mailto:${projectInfo.email}) with any questions.`
 
 
 const filename = 'README2.md';
+// Creates read me file and adds the template to the file
 
 fs.writeFile(filename,readmeTemplate, (err) =>
 err ? console.log(err) :
