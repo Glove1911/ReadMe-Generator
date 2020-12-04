@@ -64,17 +64,19 @@ inquirer
 
     .then((projectInfo) => {
         console.log(projectInfo);
-        let readmeTemplate = `
+        let readmeTemplate = 
+        `# ${projectInfo.title} 
 
-        # ${projectInfo.title}
+       
+# [![License: ${projectInfo.license}](https://img.shields.io/badge/License-${projectInfo.license}-yellow.svg)](https://opensource.org/licenses/${projectInfo.license})
 
-      # Table of Contents
+# Table of Contents
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
 - [Contribution](#contribution)
-- [Tests](#test)
+- [Tests](#tests)
 - [Questions](#questions)
 
 
@@ -110,10 +112,10 @@ ${projectInfo.test}
 (https://github.com/${projectInfo.github}) 
 
 
-Please contact me at (mailto:${projectInfo.email}) with any questions.`
+Please contact me at [harrison_glover@yahoo.com](mailto:${projectInfo.email}) with any questions.`
 
 
-const filename = 'README2.md';
+const filename = 'README.md';
 // Creates read me file and adds the template to the file
 
 fs.writeFile(filename,readmeTemplate, (err) =>
