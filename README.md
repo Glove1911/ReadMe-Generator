@@ -15,7 +15,7 @@
 
 
  ## Description
-A command line application that dynamically generates a quality readme.md file from user input utilizing the Inquirer package. 
+A command line application that dynamially generates a quality Readme.md file from utilizing the inquirer package.
 
 
 ## Installation
