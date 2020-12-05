@@ -28,7 +28,10 @@ npm init npm install inquirer
 ## Usage
 Run the following command at the root of your project and answer the prompted questions:  node index.js
 
-<img src ="https://github.com/Glove1911/ReadMe-Generator/blob/main/Untitled_%20Dec%204%2C%202020%203_34%20PM.gif" width ="700">
+
+A demo of the application can be found [here.](https://drive.google.com/file/d/1MnFfigF9rImSwyHxkl687EglLQGENr_z/vie
+
+
 ## License
 MIT
 
