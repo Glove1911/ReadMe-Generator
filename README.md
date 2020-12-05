@@ -17,7 +17,7 @@
  ## Description
 A command line application that dynamially generates a quality Readme.md file from utilizing the inquirer package.
 
-<img src="https://github.com/Glove1911/ReadMe-Generator/blob/main/444A3B5F-BB88-44D2-AE26-D9DD93914BB8_1_105_c.jpeg"
+<img src="https://github.com/Glove1911/ReadMe-Generator/blob/main/444A3B5F-BB88-44D2-AE26-D9DD93914BB8_1_105_c.jpeg">
 
 
 ## Installation
